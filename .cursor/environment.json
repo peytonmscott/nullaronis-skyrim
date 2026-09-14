@@ -1,0 +1,11 @@
+{
+  "name": "Nullaroni's Skyrim (docs)",
+  "install": "python3 -m pip install --user --break-system-packages --quiet 'markdown==3.7'",
+  "terminals": [
+    {
+      "name": "docs-preview",
+      "command": "python3 .cursor/preview_docs.py"
+    }
+  ],
+  "ports": [8080]
+}
